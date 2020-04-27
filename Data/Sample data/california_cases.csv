@@ -1,0 +1,45 @@
+county,state,fips,date,cases,deaths,population
+Alameda,California,6001,2020-03-15,37,0,1671329
+Amador,California,6005,2020-04-03,2,0,39752
+Butte,California,6007,2020-04-04,11,0,219186
+Calaveras,California,6009,2020-04-07,5,0,45905
+Contra Costa,California,6013,2020-03-17,34,0,1153526
+El Dorado,California,6017,2020-04-04,22,0,192843
+Fresno,California,6019,2020-03-21,10,0,999101
+Humboldt,California,6023,2020-03-05,1,0,135558
+Imperial,California,6025,2020-04-03,55,0,181215
+Inyo,California,6027,2020-04-08,11,0,18039
+Kern,California,6029,2020-03-31,101,1,900202
+Los Angeles,California,6037,2020-02-09,1,0,10039107
+Madera,California,6039,2020-03-21,3,0,157327
+Marin,California,6041,2020-03-11,4,0,258826
+Mendocino,California,6045,2020-04-01,4,0,86749
+Merced,California,6047,2020-04-07,34,1,277680
+Mono,California,6051,2020-04-07,19,1,14444
+Monterey,California,6053,2020-03-31,42,2,434061
+Napa,California,6055,2020-03-11,1,0,137744
+Nevada,California,6057,2020-03-30,18,0,99755
+Orange,California,6059,2020-02-08,1,0,3175692
+Placer,California,6061,2020-03-16,8,1,398329
+Riverside,California,6065,2020-03-21,30,5,2470546
+Sacramento,California,6067,2020-03-06,3,0,1552058
+San Benito,California,6069,2020-03-27,11,1,62808
+San Bernardino,California,6071,2020-03-29,111,3,2180085
+San Diego,California,6073,2020-02-24,1,0,3338330
+San Francisco,California,6075,2020-02-16,2,0,881549
+San Joaquin,California,6077,2020-03-24,60,2,762148
+San Luis Obispo,California,6079,2020-03-28,67,0,283111
+San Mateo,California,6081,2020-03-16,42,1,766573
+Santa Barbara,California,6083,2020-03-29,68,0,446499
+Santa Clara,California,6085,2020-02-14,2,0,1927852
+Santa Cruz,California,6087,2020-03-21,15,0,273213
+Shasta,California,6089,2020-03-23,3,0,180080
+Siskiyou,California,6093,2020-04-04,3,0,43539
+Solano,California,6095,2020-03-09,12,0,447643
+Sonoma,California,6097,2020-03-11,3,0,494336
+Stanislaus,California,6099,2020-03-25,12,0,550660
+Sutter,California,6101,2020-04-08,20,2,96971
+Tulare,California,6107,2020-03-26,20,0,466195
+Ventura,California,6111,2020-03-24,39,1,846006
+Yolo,California,6113,2020-03-20,6,0,220500
+Yuba,California,6115,2020-04-04,9,0,78668

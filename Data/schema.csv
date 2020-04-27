@@ -1,0 +1,105 @@
+﻿Name,VARIABLE
+stay at home order,SH1
+Mandatory Quarantine for Travelers,SH2
+NonNoEssential Business Closures,SH3
+Large Gatherings Ban,SH4
+StateNoMandated School Closures,SH5
+Bar/Restaurant Limits,SH6
+Primary Election Postponement,SH7
+Emergency Declaration,SH8
+Median AQI in 2019,AQI1
+Under 1 years White,AR1
+1 to 9 years White,AR2
+10 to 14 years White,AR3
+15 to 17 years White,AR4
+18 and 19 years White,AR5
+20 to 24 years White,AR6
+25 to 29 years White,AR7
+30 to 34 years White,AR8
+35 to 44 years White,AR9
+45 to 54 years White,AR10
+55 to 64 years White,AR11
+65 to 74 years White,AR12
+75 to 84 years White,AR13
+85 years and over White,AR14
+Under 1 years Black,AR15
+1 to 9 years Black,AR16
+10 to 14 years Black,AR17
+15 to 17 years Black,AR18
+18 and 19 years Black,AR19
+20 to 24 years Black,AR20
+25 to 29 years Black,AR21
+30 to 34 years Black,AR22
+35 to 44 years Black,AR23
+45 to 54 years Black,AR24
+55 to 64 years Black,AR25
+65 to 74 years Black,AR26
+75 to 84 years Black,AR27
+85 years and over Black,AR28
+Under 1 years Native,AR29
+1 to 9 years Native,AR30
+10 to 14 years Native,AR31
+15 to 17 years Native,AR32
+18 and 19 years Native,AR33
+20 to 24 years Native,AR34
+25 to 29 years Native,AR35
+30 to 34 years Native,AR36
+35 to 44 years Native,AR37
+45 to 54 years Native,AR38
+55 to 64 years Native,AR39
+65 to 74 years Native,AR40
+75 to 84 years Native,AR41
+85 years and over Native,AR42
+Under 1 years Asian,AR43
+1 to 9 years Asian,AR44
+10 to 14 years Asian,AR45
+15 to 17 years Asian,AR46
+18 and 19 years Asian,AR47
+20 to 24 years Asian,AR48
+25 to 29 years Asian,AR49
+30 to 34 years Asian,AR50
+35 to 44 years Asian,AR51
+45 to 54 years Asian,AR52
+55 to 64 years Asian,AR53
+65 to 74 years Asian,AR54
+75 to 84 years Asian,AR55
+85 years and over Asian,AR56
+Under 1 years Hispanic,AR57
+1 to 9 years Hispanic,AR58
+10 to 14 years Hispanic,AR59
+15 to 17 years Hispanic,AR60
+18 and 19 years Hispanic,AR61
+20 to 24 years Hispanic,AR62
+25 to 29 years Hispanic,AR63
+30 to 34 years Hispanic,AR64
+35 to 44 years Hispanic,AR65
+45 to 54 years Hispanic,AR66
+55 to 64 years Hispanic,AR67
+65 to 74 years Hispanic,AR68
+75 to 84 years Hispanic,AR69
+85 years and over Hispanic,AR70
+Under 1 years With a disability,AR71
+Under 5 years  With a disability,AR72
+5 to 17 years  With a disability,AR73
+18 to 34 years With a disability,AR74
+35 to 64 years With a disability,AR75
+65 to 74 years With a disability,AR76
+75 years and over With a disability,AR77
+Car truck or van,T1
+Car truck or van Drove alone,T2
+Car truck or van Carpooled,T3
+Car truck or van Carpooled In 2 person carpool,T4
+Car truck or van Carpooled In 3 person carpool,T5
+Car truck or van Carpooled In 4 person carpool,T6
+Car truck or van Carpooled In 5  or 6 person carpool,T7
+Car truck or van Carpooled In 7 or more person carpool,T8
+Motorcycle,T9
+Bicycle,T10
+Walked,T11
+Other means,T12
+Worked at home,T13
+Family households Married couple family,H1
+Family households Other family Male householder no wife present,H2
+Family households Other family Female householder no husband present,H3
+Nonfamily households Householder living alone,H4
+Nonfamily households Householder not living alone,H5
