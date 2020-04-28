@@ -16,7 +16,7 @@
 # library(reshape2)
 # 
 # #Set WD
-# setwd("C:/Users/izzyo/Google Drive (iwy2@georgetown.edu)/MURP/GIS/Final project")
+# setwd("~/GitHub/covid-19")
 
 # #read in csvs
 county_pops <- read_csv("Data/county_population.csv")
@@ -24,7 +24,7 @@ pop_density <- read_csv("Data/usa_pop_density.csv")
 aqi_data <- read_csv("Data/county_aqi_2019.csv")
 stay_home <- read_csv("Data/stay_at_home.csv")
 census_data <- read_csv("Data/census_tables.csv")
-case_data <- read_csv("Data/county_data.csv")
+case_data <- read_csv("Data/county_data.csv") %>% select(c(-county, -state))
 
 # #merge pop data
 pop <- left_join(county_pops, pop_density, by = c("county", "state"))
@@ -38,11 +38,8 @@ pop_aqi_orders <- left_join(pop_aqi, stay_home, by = "state")
 # #merge pop_aqi_orders data to census data
 pop_aqi_orders_census <- left_join(pop_aqi_orders, census_data, by = c("county", "state"))
 
-# # #remove county and state so only fips will merge
-pop_aqi_orders_census <- pop_aqi_orders_census %>% select(c(-county, -state))
-
 # #merge pop_aqi_orders_census to case data
-final_data <- left_join(case_data, pop_aqi_orders_census, by = "fips")
+final_data <- left_join(pop_aqi_orders_census, case_data, by = "fips")
 
 final_data$case_ratio <- final_data$cases / final_data$population * 100
 final_data$deaths_ratio <- final_data$deaths / final_data$population * 100
