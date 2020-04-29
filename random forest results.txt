@@ -3,53 +3,53 @@ Random Seed: 821436
 -------------- Model Characteristics ---------------
 Number of Trees                                  100
 Leaf Size                                          5
-Tree Depth Range                               26-43
-Mean Tree Depth                                   35
+Tree Depth Range                               29-50
+Mean Tree Depth                                   36
 % of Training Available per Tree                 100
-Number of Randomly Sampled Variables              34
+Number of Randomly Sampled Variables              39
 % of Training Data Excluded for Validation        10
 
 ----------- Model Out of Bag Errors ------------
 Number of Trees                    50         100
 MSE                             0.004       0.004
-% of variation explained       -0.344       2.993
+% of variation explained       -0.119       2.875
 
 ---------- Top Variable Importance -----------
-Variable	Importance	%
-Car truck or van Carpooled In 5  or 6 person carpool	0.46	4
-Car truck or van Carpooled In 4 person carpool	0.4	4
-10 to 14 years White	0.36	3
-Car truck or van Carpooled In 3 person carpool	0.28	3
-20 to 24 years Native	0.27	3
-15 to 17 years Asian	0.25	2
-85 years and over White	0.24	2
-35 to 44 years Black	0.22	2
-55 to 64 years Black	0.22	2
-1 to 9 years Black	0.22	2
-30 to 34 years Black	0.18	2
-35 to 44 years Asian	0.18	2
-65 to 74 years Black	0.18	2
-Bar/Restaurant Limits	0.17	2
-35 to 44 years White	0.16	2
-Primary Election Postponement	0.15	1
-Family households Married couple family	0.15	1
-Family households Other family Male householder no wife present	0.15	1
-45 to 54 years Asian	0.15	1
-stay at home order	0.15	1
+Variable             					Importance        %
+Works in manufacturing					0.58              5
+Car truck or van Carpooled In 4 person carpool		0.36              3
+Car truck or van Carpooled In 5  or 6 person carpool	0.35              3
+10 to 14 years White					0.31              3
+1 to 9 years Black					0.27              3
+Works in information					0.22              2
+Works in agriculture					0.22              2
+20 to 24 years Native					0.20              2
+1 to 9 years Asian					0.20              2
+55 to 64 years White					0.19              2
+Works in transportation					0.19              2
+30 to 34 years Black					0.18              2
+65 to 74 years Black					0.18              2
+55 to 64 years Black					0.18              2
+Works in other services					0.17              2
+35 to 44 years White					0.17              2
+75 to 84 years Black					0.16              1
+Primary Election Postponement				0.16              1
+45 to 54 years Black					0.15              1
+Other means						0.15              1
 
 ----- Training Data: Regression Diagnostics ------
-R-Squared                                    0.911
+R-Squared                                    0.910
 p-value                                      0.000
 Standard Error                               0.004
 *Predictions for the data used to train the model compared to the observed categories for those features
 
 ---- Validation Data: Regression Diagnostics -----
-R-Squared                                    0.123
+R-Squared                                    0.175
 p-value                                      0.000
-Standard Error                               0.015
+Standard Error                               0.013
 *Predictions for the test data (excluded from model training) compared to the observed values for those test features
 
-Median R2 0.123 was approximately reached at seed 288572
+Median R2 0.175 was approximately reached at seed 288572
 
 ------------------ Explanatory Variable Range Diagnostics ------------------
               Training              Validation              Training   Validation
@@ -133,19 +133,34 @@ AR74          0.00       59.19      0.00         17.10          1.00        0.29
 AR75          0.16       165.52     0.46         45.17          1.00        0.27*
 AR76          0.00       67.08      1.23         25.31          1.00        0.36*
 AR77          0.00       28.21      1.03         15.60          1.00        0.52*
-T1            2.31       52.82      9.78         50.74          1.00        0.81*
-T2            1.22       48.58      6.05         46.95          1.00        0.86*
-T3            0.00       17.57      0.00         8.44           1.00        0.48*
-T4            0.00       8.05       0.00         6.81           1.00        0.84*
-T5            0.00       7.72       0.00         2.81           1.00        0.36*
-T6            0.00       2.56       0.00         1.62           1.00        0.63*
-T7            0.00       2.67       0.00         1.27           1.00        0.48*
-T8            0.00       2.23       0.00         0.83           1.00        0.37*
-T9            0.00       0.96       0.00         0.47           1.00        0.49*
-T10           0.00       8.00       0.00         3.56           1.00        0.44*
-T11           0.00       37.14      0.08         19.12          1.00        0.51*
-T12           0.00       11.20      0.00         6.84           1.00        0.61*
-T13           0.00       19.72      0.00         11.01          1.00        0.56*
+T1            1.22       48.58      6.05         46.95          1.00        0.86*
+T2            0.00       17.57      0.00         8.44           1.00        0.48*
+T3            0.00       8.05       0.00         6.81           1.00        0.84*
+T4            0.00       7.72       0.00         2.81           1.00        0.36*
+T5            0.00       2.56       0.00         1.62           1.00        0.63*
+T6            0.00       2.67       0.00         1.27           1.00        0.48*
+T7            0.00       2.23       0.00         0.83           1.00        0.37*
+T8            0.00       0.96       0.00         0.47           1.00        0.49*
+T9            0.00       8.00       0.00         3.56           1.00        0.44*
+T10           0.00       37.14      0.08         19.12          1.00        0.51*
+T11           0.00       11.20      0.00         6.84           1.00        0.61*
+T12           0.00       19.72      0.00         11.01          1.00        0.56*
+T13           0.00       59.89      0.00         61.36         0.98*         1.02
+O1            0.00       60.53      0.12         42.27          1.00        0.70*
+O2            0.00       1177.88    0.02         373.71         1.00        0.32*
+O3            0.00       51.73      0.00         36.59          1.00        0.71*
+O4            0.00       30.56      0.00         7.26           1.00        0.24*
+O5            0.84       28.58      3.61         18.53          1.00        0.54*
+O6            0.00       27.74      1.54         17.07          1.00        0.56*
+O7            0.00       12.33      0.00         4.44           1.00        0.36*
+O8            0.00       20.60      0.00         11.29          1.00        0.55*
+O9            0.00       54.76      0.00         16.91          1.00        0.31*
+O10           5.65       49.49      9.79         46.28          1.00        0.83*
+O11           0.00       38.75      0.00         43.58         0.89*         1.12
+O12           0.00       12.73      0.91         10.38          1.00        0.74*
+O13           0.00       38.60      1.43         19.29          1.00        0.46*
+O14           0.00       43.61      10.09        42.80          1.00        0.75*
+O15           6.48       36.25      5.06         33.49         0.95*        0.91*
 H1            5.06       30.24      9.14         29.22          1.00        0.80*
 H2            0.00       9.29       0.38         4.07           1.00        0.40*
 H3            0.00       12.54      0.16         12.65         0.99*        0.99*
@@ -156,4 +171,3 @@ H5            0.00       8.70       0.00         7.56           1.00        0.87
 *  Data ranges do not coincide. Training or validation is occurring with incomplete data.
 +  Ranges of the training data and prediction data do not coincide and the tool is attempting to extrapolate.
 Completed script Forest-based Classification and Regression...
-

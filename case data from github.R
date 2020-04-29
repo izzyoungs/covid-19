@@ -1,9 +1,8 @@
 # library(tidyverse)
 # library(magrittr)
 # library(DataCombine)
+# library(here)
 # 
-# #Set WD
-# setwd("~/GitHub/covid-19")
 # 
 # #read in csv
 case_data <- read_csv("~/GitHub/covid-19-data/us-counties.csv")
@@ -16,11 +15,13 @@ case_data_2 <- case_data %>%
          & county != "Baltimore City"
          & county != "Kansas City"
          & county != "New York City"
-         & county != "Franklin City")
+         & county != "Franklin City"
+         & county != "Richmond City"
+         & county != "Roanoke City")
 
 # #create a small data frame to add back when cleanup is done
 case_data_3 <- case_data %>% 
-  filter(county %in% c("Carson City", "St. Louis City", "Fairfax City", "Franklin City", "Baltimore City", "New York City")) 
+  filter(county %in% c("Carson City", "St. Louis City", "Fairfax City", "Franklin City", "Baltimore City", "New York City", "Richmond City", "Roanoke City")) 
 
 # #make a list of words to remove
 wordstoremove <- c(" County", " City", " Parish", " and Borough", " Borough", " Municipality", " Census Area")%>% 
@@ -44,9 +45,5 @@ case_data <- case_data %>%
 
 county_data <- case_data[complete.cases(case_data$fips), ]
 
-write_csv(county_data, "Data/county_data.csv")
-
-state_data <- subset(case_data,is.na(fips))
-
-write_csv(state_data, "Data/state_data.csv")
+write_csv(county_data, "Data/case_data.csv")
 

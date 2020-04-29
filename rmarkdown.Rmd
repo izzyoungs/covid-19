@@ -1,0 +1,41 @@
+---
+title: "COVID-19 Spatial Analysis"
+author: "Izzy Youngs"
+date: "5/7/2020"
+output: 
+  html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
+library(here)
+```
+
+## Analysis goal and data requirements
+To illuminate which factors and variables drive the biggest differences in community spread of coronavirus, I turned to Random Forest Regression, a supervised learning technique which combines the result of multiple forest regressions and then aggregates them, making it more powerful than any single forest regression, which tend to overfit the data. 
+
+This spatial statistics tool is very powerful and can be fine-tuned to improve the quality of the model's prediction confidence. Random Forest Regressions attempt to predict the value of a single variable (in this example, the case ratio) based on the values of other variables selected.
+
+Based on various reports about the potential transmission factors, I isolated the following variables for analysis:
+
+```{r data, echo=FALSE, include = FALSE}
+requirements_table <- read_csv("~/GitHub/covid-19/Data/analysis_table.csv")
+```
+
+```{r requirements, echo=FALSE}
+kable(requirements_table)
+```
+
+## Step-by-step documentation
+
+Step-by-step documentation of your analysis steps, to include relevant tools used
+
+
+## Storymap
+A link to a completed Story Map app that walks users through your analysis and presents the results
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```

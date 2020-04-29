@@ -1,17 +1,15 @@
 # library(tidyverse)
 # library(dplyr)
 # library(magrittr)
-# 
-# #Set WD
-# setwd("~/GitHub/covid-19")
-
+# library(here)
+#
 # #read in csvs
 county_pops <- read_csv("Data/county_population.csv")
 pop_density <- read_csv("Data/usa_pop_density.csv")
 aqi_data <- read_csv("Data/county_aqi_2019.csv")
 stay_home <- read_csv("Data/stay_at_home.csv")
 census_data <- read_csv("Data/census_tables.csv")
-case_data <- read_csv("Data/county_data.csv") %>% select(c(-county, -state))
+case_data <- read_csv("Data/final_data.csv") %>% select(c(-county, -state))
 
 # #merge pop data
 pop <- left_join(county_pops, pop_density, by = c("county", "state"))
@@ -33,4 +31,4 @@ final_data$deaths_ratio <- final_data$deaths / final_data$population * 100
 
 final_data <- final_data %>% select(state, county, fips, population, pop_density, date, cases, case_ratio, deaths, deaths_ratio, everything())
 
-write_csv(final_data, "Data/final_county_data.csv")
+write_csv(final_data, "Data/final_data.csv")

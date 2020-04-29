@@ -1,0 +1,138 @@
+Running script Forest...
+Random Seed: 821436
+-------------- Model Characteristics ---------------
+Number of Trees                                  100
+Leaf Size                                          5
+Tree Depth Range                               28-54
+Mean Tree Depth                                   36
+% of Training Available per Tree                 100
+Number of Randomly Sampled Variables              25
+% of Training Data Excluded for Validation        10
+
+----------- Model Out of Bag Errors ------------
+Number of Trees                    50         100
+MSE                             0.005       0.005
+% of variation explained       -2.768       0.685
+
+---------- Top Variable Importance -----------
+Variable            		  Importance              %
+10 to 14 years White			0.71              5
+75 to 84 years White			0.60              4
+1 to 9 years Asian			0.50              4
+85 years and over White			0.44              3
+15 to 17 years Asian			0.44              3
+1 to 9 years Black			0.40              3
+18 to 34 years With a disability	0.40              3
+5 to 17 years  With a disability	0.30              2
+45 to 54 years Black			0.30              2
+1 to 9 years Hispanic			0.30              2
+35 to 44 years White			0.29              2
+30 to 34 years Black			0.27              2
+45 to 54 years Asian			0.26              2
+55 to 64 years Black			0.24              2
+25 to 29 years Black			0.24              2
+35 to 44 years Black			0.24              2
+1 to 9 years White			0.23              2
+65 to 74 years With a disability	0.23              2
+35 to 44 years Asian			0.23              2
+45 to 54 years White			0.23              2
+
+----- Training Data: Regression Diagnostics ------
+R-Squared                                    0.916
+p-value                                      0.000
+Standard Error                               0.004
+*Predictions for the data used to train the model compared to the observed categories for those features
+
+---- Validation Data: Regression Diagnostics -----
+R-Squared                                    0.083
+p-value                                      0.000
+Standard Error                               0.046
+*Predictions for the test data (excluded from model training) compared to the observed values for those test features
+
+Median R2 0.083 was approximately reached at seed 517087
+
+---------------- Explanatory Variable Range Diagnostics ---------------
+           Training             Validation             Training   Validation
+Variable   Minimum    Maximum   Minimum      Maximum   Share(a)     Share(b)
+AR1        0.00       19.05     0.17         9.98          1.00        0.51*
+AR2        0.00       15.05     0.00         12.88         1.00        0.86*
+AR3        0.00       17.25     0.00         13.75         1.00        0.80*
+AR4        0.00       15.43     0.00         6.62          1.00        0.43*
+AR5        0.00       33.83     0.00         11.07         1.00        0.33*
+AR6        0.00       40.05     1.66         32.65         1.00        0.77*
+AR7        0.00       21.30     0.12         14.08         1.00        0.66*
+AR8        0.00       37.50     0.00         14.91         1.00        0.40*
+AR9        0.00       27.59     3.60         25.15         1.00        0.78*
+AR10       0.00       49.26     5.52         26.75         1.00        0.43*
+AR11       2.61       112.50    7.25         22.75         1.00        0.14*
+AR12       0.00       34.43     1.12         30.48         1.00        0.85*
+AR13       0.00       21.24     1.12         17.69         1.00        0.78*
+AR14       0.00       8.93      0.00         5.54          1.00        0.62*
+AR15       0.00       65.99     0.00         30.03         1.00        0.46*
+AR16       0.00       48.01     0.00         25.65         1.00        0.53*
+AR17       0.00       54.78     0.00         35.85         1.00        0.65*
+AR18       0.00       27.77     0.00         18.06         1.00        0.65*
+AR19       0.00       49.53     0.00         8.43          1.00        0.17*
+AR20       0.00       109.38    0.00         46.37         1.00        0.42*
+AR21       0.00       52.34     0.00         30.45         1.00        0.58*
+AR22       0.00       58.84     0.00         26.44         1.00        0.45*
+AR23       0.00       75.42     0.00         42.49         1.00        0.56*
+AR24       0.00       76.40     0.00         49.13         1.00        0.64*
+AR25       0.00       84.24     0.00         61.73         1.00        0.73*
+AR26       0.00       47.01     0.00         43.74         1.00        0.93*
+AR27       0.00       33.09     0.00         20.76         1.00        0.63*
+AR28       0.00       7.88      0.00         7.75          1.00        0.98*
+AR29       0.00       326.65    0.00         202.24        1.00        0.62*
+AR30       0.00       287.15    0.00         178.68        1.00        0.62*
+AR31       0.00       271.47    0.00         234.50        1.00        0.86*
+AR32       0.00       145.45    0.00         109.96        1.00        0.76*
+AR33       0.00       88.40     0.00         54.42         1.00        0.62*
+AR34       0.00       189.97    0.00         159.89        1.00        0.84*
+AR35       0.00       204.39    0.00         139.13        1.00        0.68*
+AR36       0.00       154.86    0.00         128.75        1.00        0.83*
+AR37       0.00       216.93    0.00         188.22        1.00        0.87*
+AR38       0.00       231.97    0.00         190.74        1.00        0.82*
+AR39       0.00       209.40    0.00         135.76        1.00        0.65*
+AR40       0.00       86.52     0.00         60.59         1.00        0.70*
+AR41       0.00       30.09     0.00         23.56         1.00        0.78*
+AR42       0.00       5.11      0.00         3.37          1.00        0.66*
+AR43       0.00       7.33      0.00         2.35          1.00        0.32*
+AR44       0.00       7.65      0.00         2.84          1.00        0.37*
+AR45       0.00       8.71      0.00         2.65          1.00        0.30*
+AR46       0.00       5.33      0.00         2.52          1.00        0.47*
+AR47       0.00       7.65      0.00         1.21          1.00        0.16*
+AR48       0.00       18.25     0.00         5.23          1.00        0.29*
+AR49       0.00       11.66     0.00         7.27          1.00        0.62*
+AR50       0.00       11.42     0.00         6.36          1.00        0.56*
+AR51       0.00       22.66     0.00         9.52          1.00        0.42*
+AR52       0.00       43.64     0.00         9.14          1.00        0.21*
+AR53       0.00       75.00     0.00         10.61         1.00        0.14*
+AR54       0.00       22.61     0.00         8.72          1.00        0.39*
+AR55       0.00       12.56     0.00         4.18          1.00        0.33*
+AR56       0.00       7.00      0.00         2.46          1.00        0.35*
+AR57       0.00       25.00     0.00         21.84         1.00        0.87*
+AR58       0.00       25.49     0.00         20.91         1.00        0.82*
+AR59       0.00       13.96     0.00         19.37        0.72*         1.39
+AR60       0.00       35.04     0.00         11.78         1.00        0.34*
+AR61       0.00       15.90     0.00         7.79          1.00        0.49*
+AR62       0.00       27.67     0.00         22.23         1.00        0.80*
+AR63       0.00       36.99     0.00         22.70         1.00        0.61*
+AR64       0.00       20.00     0.00         19.15         1.00        0.96*
+AR65       0.00       29.26     0.00         31.03        0.94*         1.06
+AR66       0.00       24.46     0.00         28.92        0.85*         1.18
+AR67       0.00       30.70     0.00         21.72         1.00        0.71*
+AR68       0.00       18.18     0.00         12.33         1.00        0.68*
+AR69       0.00       10.37     0.00         8.39          1.00        0.81*
+AR70       0.00       8.93      0.00         1.55          1.00        0.17*
+AR71       0.00       3.76      0.00         2.81          1.00        0.75*
+AR72       0.00       3.76      0.00         2.81          1.00        0.75*
+AR73       0.00       27.59     0.00         47.12        0.59*         1.71
+AR74       0.00       39.43     0.00         59.19        0.67*         1.50
+AR75       0.16       165.52    1.89         116.13        1.00        0.69*
+AR76       0.00       67.08     1.01         44.71         1.00        0.65*
+AR77       0.00       28.21     0.60         23.25         1.00        0.80*
+(a) % of overlap between the ranges of the training data and the input explanatory variable
+(b) % of overlap between the ranges of the validation data and the training data
+*  Data ranges do not coincide. Training or validation is occurring with incomplete data.
++  Ranges of the training data and prediction data do not coincide and the tool is attempting to extrapolate.
+Completed script Forest-based Classification and Regression...

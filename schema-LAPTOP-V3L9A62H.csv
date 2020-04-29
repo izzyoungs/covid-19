@@ -1,9 +1,9 @@
 ﻿Name,VARIABLE
-stay at home order,SH1
+Stay at home order,SH1
 Mandatory Quarantine for Travelers,SH2
-NonNoEssential Business Closures,SH3
+Nonessential Business Closures,SH3
 Large Gatherings Ban,SH4
-StateNoMandated School Closures,SH5
+State Mandated School Closures,SH5
 Bar/Restaurant Limits,SH6
 Primary Election Postponement,SH7
 Emergency Declaration,SH8
@@ -85,21 +85,36 @@ Under 5 years  With a disability,AR72
 35 to 64 years With a disability,AR75
 65 to 74 years With a disability,AR76
 75 years and over With a disability,AR77
-Car truck or van,T1
-Car truck or van Drove alone,T2
-Car truck or van Carpooled,T3
-Car truck or van Carpooled In 2 person carpool,T4
-Car truck or van Carpooled In 3 person carpool,T5
-Car truck or van Carpooled In 4 person carpool,T6
-Car truck or van Carpooled In 5  or 6 person carpool,T7
-Car truck or van Carpooled In 7 or more person carpool,T8
-Motorcycle,T9
-Bicycle,T10
-Walked,T11
-Other means,T12
-Worked at home,T13
+Car truck or van Drove alone,T1
+Car truck or van Carpooled,T2
+Car truck or van Carpooled In 2 person carpool,T3
+Car truck or van Carpooled In 3 person carpool,T4
+Car truck or van Carpooled In 4 person carpool,T5
+Car truck or van Carpooled In 5  or 6 person carpool,T6
+Car truck or van Carpooled In 7 or more person carpool,T7
+Motorcycle,T8
+Bicycle,T9
+Walked,T10
+Other means,T11
+Worked at home,T12
+Public Transportation,T13
 Family households Married couple family,H1
 Family households Other family Male householder no wife present,H2
 Family households Other family Female householder no husband present,H3
 Nonfamily households Householder living alone,H4
 Nonfamily households Householder not living alone,H5
+Works in agriculture,O1
+Works in construction,O2
+Works in manufacturing,O3
+Works in wholesale trade,O4
+Works in retail trade,O5
+Works in transportation,O6
+Works in information,O7
+Works in finance,O8
+"Works in professional, scientific, management, o administrative",O9
+"Works in education, health care, or social assistance",O10
+"Works in arts, entertainment, and recreation, and accommodation and food services",O11
+Works in other services,O12
+Works in public administration,O13
+Works in service occupations,O14
+Works in sales and office occupations,O15

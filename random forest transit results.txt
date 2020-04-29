@@ -1,0 +1,69 @@
+Running script Forest...
+Random Seed: 821436
+-------------- Model Characteristics ---------------
+Number of Trees                                  100
+Leaf Size                                          5
+Tree Depth Range                               23-43
+Mean Tree Depth                                   31
+% of Training Available per Tree                 100
+Number of Randomly Sampled Variables               4
+% of Training Data Excluded for Validation        10
+
+------------ Model Out of Bag Errors ------------
+Number of Trees                    50          100
+MSE                             0.004        0.004
+% of variation explained       -5.601       -3.941
+
+----------- Top Variable Importance -----------
+Variable             						Importance         %
+Car truck or van Carpooled In 5  or 6 person carpool		1.03              11
+Car truck or van Carpooled					1.00              10
+Worked at home							0.95              10
+Car truck or van Drove alone					0.90               9
+Car truck or van Carpooled In 4 person carpool			0.77               8
+Walked								0.75               8
+Car truck or van Carpooled In 3 person carpool			0.74               8
+Car truck or van Carpooled In 2 person carpool			0.74               8
+Other means							0.73               7
+Motorcycle							0.56               6
+Public Transportation						0.52               5
+Bicycle								0.51               5
+Car truck or van Carpooled In 7 or more person carpool		0.40               4
+Air quality				                        0.13               1
+
+----- Training Data: Regression Diagnostics ------
+R-Squared                                    0.930
+p-value                                      0.000
+Standard Error                               0.003
+*Predictions for the data used to train the model compared to the observed categories for those features
+
+---- Validation Data: Regression Diagnostics -----
+R-Squared                                    0.006
+p-value                                      0.174
+Standard Error                               0.010
+*Predictions for the test data (excluded from model training) compared to the observed values for those test features
+
+Median R2 0.006 was approximately reached at seed 569969
+
+---------------- Explanatory Variable Range Diagnostics ---------------
+           Training             Validation             Training   Validation
+Variable   Minimum    Maximum   Minimum      Maximum   Share(a)     Share(b)
+AQI1       0.00       149.00    0.00         51.00         1.00        0.34*
+T1         1.22       48.58     8.48         46.28         1.00        0.80*
+T2         0.00       17.57     1.00         9.80          1.00        0.50*
+T3         0.00       8.05      0.50         7.42          1.00        0.86*
+T4         0.00       7.72      0.00         2.41          1.00        0.31*
+T5         0.00       2.56      0.00         2.23          1.00        0.87*
+T6         0.00       2.67      0.00         1.53          1.00        0.57*
+T7         0.00       2.23      0.00         1.87          1.00        0.84*
+T8         0.00       0.96      0.00         0.49          1.00        0.51*
+T9         0.00       8.00      0.00         2.77          1.00        0.35*
+T10        0.00       37.14     0.08         32.53         1.00        0.87*
+T11        0.00       11.20     0.00         2.50          1.00        0.22*
+T12        0.00       19.72     0.10         11.77         1.00        0.59*
+T13        0.00       59.89     0.00         61.36        0.98*         1.02
+(a) % of overlap between the ranges of the training data and the input explanatory variable
+(b) % of overlap between the ranges of the validation data and the training data
+*  Data ranges do not coincide. Training or validation is occurring with incomplete data.
++  Ranges of the training data and prediction data do not coincide and the tool is attempting to extrapolate.
+Completed script Forest-based Classification and Regression...

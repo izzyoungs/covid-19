@@ -104,7 +104,7 @@ date,county,state,fips,cases,deaths
 2020-03-29,Baldwin,Alabama,1003,15,0
 2020-04-05,Baldwin,Georgia,13009,15,1
 2020-04-23,Ballard,Kentucky,21007,4,0
-2020-03-30,Baltimore,Maryland,24510,152,2
+2020-03-20,Baltimore,Maryland,24510,11,0
 2020-04-15,Bamberg,South Carolina,45009,7,0
 2020-04-24,Bandera,Texas,48019,4,0
 2020-04-14,Banks,Georgia,13011,8,0
@@ -1722,7 +1722,6 @@ date,county,state,fips,cases,deaths
 2020-04-12,New Kent,Virginia,51127,12,0
 2020-04-04,New London,Connecticut,9011,57,3
 2020-04-17,New Madrid,Missouri,29143,8,0
-2020-03-16,New York City,New York,NA,464,7
 2020-04-07,Newaygo,Michigan,26123,3,0
 2020-04-05,Newberry,South Carolina,45071,7,0
 2020-04-09,Newport,Rhode Island,44005,57,0
@@ -2390,32 +2389,6 @@ date,county,state,fips,cases,deaths
 2020-04-09,Union,South Carolina,45087,19,0
 2020-04-11,Union,South Dakota,46127,4,0
 2020-04-12,Union,Tennessee,47173,3,0
-2020-04-04,Unknown,Arkansas,NA,12,1
-2020-04-06,Unknown,Colorado,NA,276,0
-2020-04-14,Unknown,Connecticut,NA,533,4
-2020-04-26,Unknown,Delaware,NA,9,0
-2020-04-06,Unknown,Florida,NA,5,0
-2020-04-04,Unknown,Georgia,NA,88,4
-2020-03-30,Unknown,Guam,NA,60,1
-2020-04-07,Unknown,Hawaii,NA,7,0
-2020-04-07,Unknown,Illinois,NA,34,0
-2020-04-04,Unknown,Kentucky,NA,77,3
-2020-04-02,Unknown,Louisiana,NA,38,1
-2020-03-31,Unknown,Maine,NA,6,0
-2020-03-31,Unknown,Massachusetts,NA,335,0
-2020-04-10,Unknown,Michigan,NA,433,7
-2020-04-13,Unknown,Minnesota,NA,34,0
-2020-04-04,Unknown,Missouri,NA,3,0
-2020-04-04,Unknown,Nevada,NA,52,0
-2020-04-24,Unknown,New Hampshire,NA,3,1
-2020-03-27,Unknown,New Jersey,NA,1984,7
-2020-04-12,Unknown,Northern Mariana Islands,NA,11,2
-2020-03-28,Unknown,Puerto Rico,NA,100,3
-2020-03-16,Unknown,Rhode Island,NA,21,0
-2020-04-03,Unknown,Tennessee,NA,54,0
-2020-04-24,Unknown,Utah,NA,1,1
-2020-04-07,Unknown,Vermont,NA,3,16
-2020-03-29,Unknown,Virgin Islands,NA,23,0
 2020-04-04,Upshur,Texas,48459,3,0
 2020-04-10,Upshur,West Virginia,54097,2,0
 2020-04-11,Upson,Georgia,13293,51,1
