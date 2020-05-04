@@ -120,7 +120,7 @@ After this, I pulled in the final dataset to ArcGIS Pro and did an add join on t
 
 Now the data has a geometry field and I can do analysis.
 
-![*Distribution of coronavirus cases*](Photos/covidfeatures.png)
+![*Distribution of coronavirus cases*](https://github.com/izzyoungs/covid-19/blob/master/Photos/covidfeatures.PNG)
 
 
 ### Hot Spot Analysis
@@ -129,13 +129,13 @@ First, I wanted to determine which areas are experiencing the worst effects of c
 
 The hot spot analysis geoprocessing tool creates a map of statistically significant hot and cold spots using the Getis-Ord Gi* statistic. This is better than visualizing the distribution and density of the phenomenon, because the statistic compares the underlying data against neighboring data to identify which counties are statistically hotter or colder.
 
-![*Hot spot analysis of coronavirus cases*](Photos/hotspot.png)
+![*Hot spot analysis of coronavirus cases*](https://github.com/izzyoungs/covid-19/blob/master/Photos/hotspot.PNG)
 
 ### Outlier Analysis
 
 To determine which counties might have a statistically significant difference in their case numbers, I ran an outlier analysis. This geoprocessing tool identifies statistically significant hot spots, cold spots, and spatial outliers using the Anselin Local Moran's I statistic. This shows not only the hot and cold spots, but which counties within those hot and cold spots are outliers.
 
-![*Outlier analysis of coronavirus cases*](Photos/outlier.png)
+![*Outlier analysis of coronavirus cases*](https://github.com/izzyoungs/covid-19/blob/master/Photos/outlier.PNG)
 
 ### Random Forest Regression
 
@@ -152,21 +152,21 @@ kable(requirements_table)
 
 Then I located the "Forest-based Classifcation and Regression (Spatial Statistics Tools)" geoprocessing tool, and ran a training model on the case ratios by county for all the variables I identified, and indicated I wanted a validation table:
 
-![*Forest-based Classifcation and Regression geoprocessing tool*](Photos/forest_regression.png)
+![*Forest-based Classifcation and Regression geoprocessing tool*](https://github.com/izzyoungs/covid-19/blob/master/Photos/forest_regression.PNG)
 
 From this analysis, I got the following results:
 
-![*Forest-based Classifcation and Regression results*](Photos/test.png)
+![*Forest-based Classifcation and Regression results*](https://github.com/izzyoungs/covid-19/blob/master/Photos/variables.png)
 
 ### Additional walk-throughs
 
 In several instances, I created new fields to caluclate from existing fields using Arcade. I opened the attribute table of the map layer I wanted to create a new field for, and I clicked "Field: Add" in the top left of the attribute table pop-up and ensured the new field had a numeric field type:
 
-![*Add and calculate fields*](Photos/add_calculate.png)
+![*Add and calculate fields*](https://github.com/izzyoungs/covid-19/blob/master/Photos/add_calculate.PNG)
 
 Then I clicked "Calculate" and chose the new field name I just created in the appropriate input table. Then I added the variables and Arcade expressions needed to generate the new field for visualization or analysis:
 
-![*Calculate field tool*](Photos/calculate.png)
+![*Calculate field tool*](https://github.com/izzyoungs/covid-19/blob/master/Photos/calculate.png)
 
 This tool allowed me to flexibly change which variables to symbolize and analyze without having to recreate the data tables in R. With this tool, I was able to:
 
