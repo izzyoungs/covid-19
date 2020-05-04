@@ -152,7 +152,7 @@ kable(requirements_table)
 
 Then I located the "Forest-based Classifcation and Regression (Spatial Statistics Tools)" geoprocessing tool, and ran a training model on the case ratios by county for all the variables I identified, and indicated I wanted a validation table:
 
-![*Forest-based Classifcation and Regression geoprocessing tool*](forest_regression.PNG)
+![*Forest-based Classifcation and Regression geoprocessing tool*](Photos/forest_regression.PNG)
 
 From this analysis, I got the following results:
 
