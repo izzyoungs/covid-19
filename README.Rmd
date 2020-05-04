@@ -3,6 +3,7 @@ title: "COVID-19 Spatial Analysis"
 author: "Izzy Youngs"
 date: "5/7/2020"
 output: 
+  html_document:
   md_document:
    variant: markdown_github
 ---
