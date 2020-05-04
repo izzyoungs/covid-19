@@ -7,14 +7,7 @@ output:
     keep_md: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
-library(knitr)
-library(here)
-requirements_table <- read_csv("~/GitHub/covid-19/Data/analysis_table.csv")
-variables <- read_csv("Analysis results/variable_validation_2.csv", col_names = TRUE)
-```
+
 
 ## Analysis goals
 1. Do higher density and public transit use correspond to more coronavirus cases?
@@ -145,9 +138,16 @@ To illuminate which factors and variables drive the biggest differences in commu
 
 Based on various reports about the potential transmission factors, I isolated the following variables for analysis:
 
-```{r requirements, echo=FALSE}
-kable(requirements_table)
-```
+
+CRITERIA                            DEFINED AS                                          SPATIAL FEATURES    ATTRIBUTE INFORMATION                                                                                     DATASET                                     PREPARATION                                                                                                 
+----------------------------------  --------------------------------------------------  ------------------  --------------------------------------------------------------------------------------------------------  ------------------------------------------  ------------------------------------------------------------------------------------------------------------
+Population density                  People per square mile in a county                  County attributes   Population per square mile, fips for county or county AND state name                                      Esri Living Atlas                           Copy features, export table, clean attributes, link by geometry                                             
+Race by age                         ACS demographic data                                County attributes   Percentage of population is of specific race and age category, fips for county or county AND state name   Census tables, 5 year ACS 2018 from NHGIS   Make each count a percentage of the population, rename column headers for readability, link by geometry     
+Household type                      ACS household makeup attributes                     County attributes   Percentage of households per type, fips for county or county AND state name                               Census tables, 5 year ACS 2018 from NHGIS   Make each count a percentage of the population, rename column headers for readability, link by geometry     
+Transportation modes                ACS transportation modes                            County attributes   Percentage of population takes different transit types, fips for county or county AND state name          Census tables, 5 year ACS 2018 from NHGIS   Make each count a percentage of the population, rename column headers for readability, link by geometry     
+Occupation                          ACS industry occupations                            County attributes   Percentage of population in various industrise, fips for county or county AND state name                  Census tables, 5 year ACS 2018 from NHGIS   Make each count a percentage of the population, rename column headers for readability, link by geometry     
+Air pollution                       Air quality index                                   County attributes   Average amount of GHG per county, county fips or county AND state name                                    EPA air pollution numbers for 2019          Link across all counties, replace NA values with a presumptive 0 so that the random forest regression works 
+Strictness of prevention policies   The relative strictness of various state policies   State attributes    Various prevention policies by state                                                                      Kaiser Family Foundation                    Link across all states and eliminate attributes with too few variation for analysis                         
 
 Then I located the "Forest-based Classifcation and Regression (Spatial Statistics Tools)" geoprocessing tool, and ran a training model on the case ratios by county for all the variables I identified, and indicated I wanted a validation table:
 
