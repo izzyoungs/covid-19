@@ -1,0 +1,596 @@
+Variable,Validation
+Density,0.100258
+Median AQI in 2019,0.02318
+Stay at home order,0.101864
+Mandatory Quarantine for Travelers,0.029471
+Nonessential Business Closures,0.103745
+Large Gatherings Ban,0.055987
+State Mandated School Closures,0.014277
+Bar/Restaurant Limits,0.059822
+Primary Election Postponement,0.129754
+Under 1 years White,0.082525
+1 to 9 years White,0.088549
+10 to 14 years White,0.188208
+15 to 17 years White,0.078113
+18 and 19 years White,0.108126
+20 to 24 years White,0.109901
+25 to 29 years White,0.046935
+30 to 34 years White,0.061315
+35 to 44 years White,0.115571
+45 to 54 years White,0.08745
+55 to 64 years White,0.078532
+65 to 74 years White,0.05295
+75 to 84 years White,0.154659
+85 years and over White,0.172038
+Under 1 years Black,0.038344
+1 to 9 years Black,0.276329
+10 to 14 years Black,0.129043
+15 to 17 years Black,0.065953
+18 and 19 years Black,0.050126
+20 to 24 years Black,0.059403
+25 to 29 years Black,0.04257
+30 to 34 years Black,0.153049
+35 to 44 years Black,0.197914
+45 to 54 years Black,0.203743
+55 to 64 years Black,0.193748
+65 to 74 years Black,0.162663
+75 to 84 years Black,0.1328
+85 years and over Black,0.041626
+Under 1 years Native,0.013201
+1 to 9 years Native,0.070411
+10 to 14 years Native,0.035479
+15 to 17 years Native,0.04061
+18 and 19 years Native,0.014545
+20 to 24 years Native,0.077172
+25 to 29 years Native,0.037351
+30 to 34 years Native,0.051832
+35 to 44 years Native,0.026713
+45 to 54 years Native,0.099714
+55 to 64 years Native,0.048363
+65 to 74 years Native,0.026404
+75 to 84 years Native,0.038981
+85 years and over Native,0.015593
+Under 1 years Asian,0.032184
+1 to 9 years Asian,0.339273
+10 to 14 years Asian,0.02101
+15 to 17 years Asian,0.316238
+18 and 19 years Asian,0.009074
+20 to 24 years Asian,0.118282
+25 to 29 years Asian,0.22166
+30 to 34 years Asian,0.192894
+35 to 44 years Asian,0.275696
+45 to 54 years Asian,0.148365
+55 to 64 years Asian,0.110533
+65 to 74 years Asian,0.070002
+75 to 84 years Asian,0.048766
+85 years and over Asian,0.004593
+Under 1 years Hispanic,0.034917
+1 to 9 years Hispanic,0.093515
+10 to 14 years Hispanic,0.039731
+15 to 17 years Hispanic,0.071728
+18 and 19 years Hispanic,0.034432
+20 to 24 years Hispanic,0.026814
+25 to 29 years Hispanic,0.04118
+30 to 34 years Hispanic,0.027399
+35 to 44 years Hispanic,0.050146
+45 to 54 years Hispanic,0.045348
+55 to 64 years Hispanic,0.028292
+65 to 74 years Hispanic,0.020121
+75 to 84 years Hispanic,0.137561
+85 years and over Hispanic,0.015261
+Under 1 years With a disability,0.017278
+Under 5 years  With a disability,0.015275
+5 to 17 years  With a disability,0.109484
+18 to 34 years With a disability,0.095206
+35 to 64 years With a disability,0.090657
+65 to 74 years With a disability,0.072598
+75 years and over With a disability,0.060681
+Car truck or van Drove alone,0.079072
+Car truck or van Carpooled,0.124837
+Car truck or van Carpooled In 2 person carpool,0.075142
+Car truck or van Carpooled In 3 person carpool,0.161119
+Car truck or van Carpooled In 4 person carpool,0.31257
+Car truck or van Carpooled In 5  or 6 person carpool,0.489041
+Car truck or van Carpooled In 7 or more person carpool,0.067823
+Motorcycle,0.033134
+Bicycle,0.066468
+Walked,0.05882
+Other means,0.09607
+Worked at home,0.068631
+Public Transportation,0.063675
+Works in agriculture,0.332523
+Works in construction,0.088362
+Works in manufacturing,0.488458
+Works in wholesale trade,0.116025
+Works in retail trade,0.079353
+Works in transportation,0.283166
+Works in information,0.158624
+Works in finance,0.089315
+"Works in professional, scientific, management, o administrative",0.104489
+"Works in education, health care, or social assistance",0.161835
+"Works in arts, entertainment, and recreation, and accommodation and food services",0.182694
+Works in other services,0.168537
+Works in public administration,0.091159
+Works in service occupations,0.08124
+Works in sales and office occupations,0.11701
+Family households Married couple family,0.080596
+Family households Other family Male householder no wife present,0.100889
+Family households Other family Female householder no husband present,0.073646
+Nonfamily households Householder living alone,0.086636
+Nonfamily households Householder not living alone,0.081619
+Density,0.103639
+Median AQI in 2019,0.015762
+Stay at home order,0.095624
+Mandatory Quarantine for Travelers,0.033564
+Nonessential Business Closures,0.064365
+Large Gatherings Ban,0.0105
+State Mandated School Closures,0.014489
+Bar/Restaurant Limits,0.058981
+Primary Election Postponement,0.157133
+Under 1 years White,0.042796
+1 to 9 years White,0.094522
+10 to 14 years White,0.31023
+15 to 17 years White,0.070379
+18 and 19 years White,0.094472
+20 to 24 years White,0.067887
+25 to 29 years White,0.072328
+30 to 34 years White,0.060835
+35 to 44 years White,0.168312
+45 to 54 years White,0.088679
+55 to 64 years White,0.082508
+65 to 74 years White,0.053822
+75 to 84 years White,0.098503
+85 years and over White,0.137214
+Under 1 years Black,0.037118
+1 to 9 years Black,0.270541
+10 to 14 years Black,0.14351
+15 to 17 years Black,0.052784
+18 and 19 years Black,0.048713
+20 to 24 years Black,0.068747
+25 to 29 years Black,0.070179
+30 to 34 years Black,0.183215
+35 to 44 years Black,0.101292
+45 to 54 years Black,0.15499
+55 to 64 years Black,0.180835
+65 to 74 years Black,0.182349
+75 to 84 years Black,0.160848
+85 years and over Black,0.029277
+Under 1 years Native,0.025156
+1 to 9 years Native,0.027347
+10 to 14 years Native,0.030424
+15 to 17 years Native,0.008807
+18 and 19 years Native,0.016672
+20 to 24 years Native,0.203495
+25 to 29 years Native,0.022228
+30 to 34 years Native,0.090874
+35 to 44 years Native,0.052293
+45 to 54 years Native,0.049893
+55 to 64 years Native,0.030688
+65 to 74 years Native,0.023438
+75 to 84 years Native,0.03396
+85 years and over Native,0.018929
+Under 1 years Asian,0.135833
+1 to 9 years Asian,0.195508
+10 to 14 years Asian,0.029835
+15 to 17 years Asian,0.099005
+18 and 19 years Asian,0.064806
+20 to 24 years Asian,0.073873
+25 to 29 years Asian,0.077041
+30 to 34 years Asian,0.140955
+35 to 44 years Asian,0.122207
+45 to 54 years Asian,0.03483
+55 to 64 years Asian,0.040735
+65 to 74 years Asian,0.030905
+75 to 84 years Asian,0.043864
+85 years and over Asian,0.004841
+Under 1 years Hispanic,0.052417
+1 to 9 years Hispanic,0.074523
+10 to 14 years Hispanic,0.0349
+15 to 17 years Hispanic,0.061946
+18 and 19 years Hispanic,0.042621
+20 to 24 years Hispanic,0.050895
+25 to 29 years Hispanic,0.029523
+30 to 34 years Hispanic,0.027109
+35 to 44 years Hispanic,0.060634
+45 to 54 years Hispanic,0.054298
+55 to 64 years Hispanic,0.061558
+65 to 74 years Hispanic,0.026097
+75 to 84 years Hispanic,0.122206
+85 years and over Hispanic,0.013796
+Under 1 years With a disability,0.022961
+Under 5 years  With a disability,0.017267
+5 to 17 years  With a disability,0.05223
+18 to 34 years With a disability,0.040128
+35 to 64 years With a disability,0.088811
+65 to 74 years With a disability,0.055374
+75 years and over With a disability,0.074362
+Car truck or van Drove alone,0.047337
+Car truck or van Carpooled,0.065934
+Car truck or van Carpooled In 2 person carpool,0.090275
+Car truck or van Carpooled In 3 person carpool,0.088471
+Car truck or van Carpooled In 4 person carpool,0.361053
+Car truck or van Carpooled In 5  or 6 person carpool,0.354544
+Car truck or van Carpooled In 7 or more person carpool,0.043056
+Motorcycle,0.035217
+Bicycle,0.071062
+Walked,0.070161
+Other means,0.152509
+Worked at home,0.058125
+Public Transportation,0.056076
+Works in agriculture,0.217171
+Works in construction,0.088845
+Works in manufacturing,0.582437
+Works in wholesale trade,0.115288
+Works in retail trade,0.048004
+Works in transportation,0.19081
+Works in information,0.223417
+Works in finance,0.106482
+"Works in professional, scientific, management, o administrative",0.089719
+"Works in education, health care, or social assistance",0.079447
+"Works in arts, entertainment, and recreation, and accommodation and food services",0.191504
+Works in other services,0.17232
+Works in public administration,0.084453
+Works in service occupations,0.060383
+Works in sales and office occupations,0.129501
+Family households Married couple family,0.056549
+Family households Other family Male householder no wife present,0.117259
+Family households Other family Female householder no husband present,0.054934
+Nonfamily households Householder living alone,0.146358
+Nonfamily households Householder not living alone,0.072047
+Density,0.09477
+Median AQI in 2019,0.023304
+Stay at home order,0.189226
+Mandatory Quarantine for Travelers,0.058285
+Nonessential Business Closures,0.058158
+Large Gatherings Ban,0.035917
+State Mandated School Closures,0.011755
+Bar/Restaurant Limits,0.139453
+Primary Election Postponement,0.145432
+Under 1 years White,0.052578
+1 to 9 years White,0.081395
+10 to 14 years White,0.175238
+15 to 17 years White,0.068651
+18 and 19 years White,0.076849
+20 to 24 years White,0.056834
+25 to 29 years White,0.046938
+30 to 34 years White,0.067936
+35 to 44 years White,0.173667
+45 to 54 years White,0.086384
+55 to 64 years White,0.078504
+65 to 74 years White,0.107471
+75 to 84 years White,0.094082
+85 years and over White,0.191001
+Under 1 years Black,0.094804
+1 to 9 years Black,0.215304
+10 to 14 years Black,0.080755
+15 to 17 years Black,0.066898
+18 and 19 years Black,0.046512
+20 to 24 years Black,0.113523
+25 to 29 years Black,0.04464
+30 to 34 years Black,0.211041
+35 to 44 years Black,0.105496
+45 to 54 years Black,0.178555
+55 to 64 years Black,0.14182
+65 to 74 years Black,0.088498
+75 to 84 years Black,0.130455
+85 years and over Black,0.03663
+Under 1 years Native,0.011945
+1 to 9 years Native,0.027358
+10 to 14 years Native,0.06462
+15 to 17 years Native,0.014669
+18 and 19 years Native,0.023054
+20 to 24 years Native,0.046983
+25 to 29 years Native,0.022778
+30 to 34 years Native,0.064035
+35 to 44 years Native,0.025311
+45 to 54 years Native,0.039648
+55 to 64 years Native,0.04575
+65 to 74 years Native,0.029662
+75 to 84 years Native,0.031126
+85 years and over Native,0.017848
+Under 1 years Asian,0.336056
+1 to 9 years Asian,0.280061
+10 to 14 years Asian,0.028909
+15 to 17 years Asian,0.314933
+18 and 19 years Asian,0.058676
+20 to 24 years Asian,0.118747
+25 to 29 years Asian,0.169961
+30 to 34 years Asian,0.44783
+35 to 44 years Asian,0.177914
+45 to 54 years Asian,0.076039
+55 to 64 years Asian,0.083257
+65 to 74 years Asian,0.06927
+75 to 84 years Asian,0.037139
+85 years and over Asian,0.004599
+Under 1 years Hispanic,0.041714
+1 to 9 years Hispanic,0.07287
+10 to 14 years Hispanic,0.038512
+15 to 17 years Hispanic,0.036081
+18 and 19 years Hispanic,0.037126
+20 to 24 years Hispanic,0.054054
+25 to 29 years Hispanic,0.069164
+30 to 34 years Hispanic,0.045494
+35 to 44 years Hispanic,0.033809
+45 to 54 years Hispanic,0.025405
+55 to 64 years Hispanic,0.025381
+65 to 74 years Hispanic,0.028485
+75 to 84 years Hispanic,0.12689
+85 years and over Hispanic,0.022166
+Under 1 years With a disability,0.014322
+Under 5 years  With a disability,0.025177
+5 to 17 years  With a disability,0.120606
+18 to 34 years With a disability,0.112933
+35 to 64 years With a disability,0.074889
+65 to 74 years With a disability,0.08912
+75 years and over With a disability,0.055101
+Car truck or van Drove alone,0.061311
+Car truck or van Carpooled,0.338624
+Car truck or van Carpooled In 2 person carpool,0.075585
+Car truck or van Carpooled In 3 person carpool,0.220425
+Car truck or van Carpooled In 4 person carpool,0.167007
+Car truck or van Carpooled In 5  or 6 person carpool,0.767493
+Car truck or van Carpooled In 7 or more person carpool,0.045204
+Motorcycle,0.049463
+Bicycle,0.052626
+Walked,0.078403
+Other means,0.083036
+Worked at home,0.063739
+Public Transportation,0.185644
+Works in agriculture,0.178976
+Works in construction,0.098779
+Works in manufacturing,0.30906
+Works in wholesale trade,0.166782
+Works in retail trade,0.05837
+Works in transportation,0.218055
+Works in information,0.225786
+Works in finance,0.065901
+"Works in professional, scientific, management, o administrative",0.100094
+"Works in education, health care, or social assistance",0.128674
+"Works in arts, entertainment, and recreation, and accommodation and food services",0.306332
+Works in other services,0.187794
+Works in public administration,0.059957
+Works in service occupations,0.05787
+Works in sales and office occupations,0.113363
+Family households Married couple family,0.100513
+Family households Other family Male householder no wife present,0.091042
+Family households Other family Female householder no husband present,0.037289
+Nonfamily households Householder living alone,0.061736
+Nonfamily households Householder not living alone,0.090473
+Density,0.101311
+Median AQI in 2019,0.020694
+Stay at home order,0.125877
+Mandatory Quarantine for Travelers,0.03599
+Nonessential Business Closures,0.088261
+Large Gatherings Ban,0.056484
+State Mandated School Closures,0.015689
+Bar/Restaurant Limits,0.059215
+Primary Election Postponement,0.12555
+Under 1 years White,0.059563
+1 to 9 years White,0.1419
+10 to 14 years White,0.24554
+15 to 17 years White,0.05021
+18 and 19 years White,0.144935
+20 to 24 years White,0.070362
+25 to 29 years White,0.040873
+30 to 34 years White,0.046515
+35 to 44 years White,0.151826
+45 to 54 years White,0.086123
+55 to 64 years White,0.073086
+65 to 74 years White,0.060629
+75 to 84 years White,0.077085
+85 years and over White,0.131956
+Under 1 years Black,0.090081
+1 to 9 years Black,0.235298
+10 to 14 years Black,0.145849
+15 to 17 years Black,0.079078
+18 and 19 years Black,0.112975
+20 to 24 years Black,0.060785
+25 to 29 years Black,0.055936
+30 to 34 years Black,0.169809
+35 to 44 years Black,0.365859
+45 to 54 years Black,0.225883
+55 to 64 years Black,0.211327
+65 to 74 years Black,0.177733
+75 to 84 years Black,0.150963
+85 years and over Black,0.037281
+Under 1 years Native,0.007515
+1 to 9 years Native,0.050207
+10 to 14 years Native,0.043082
+15 to 17 years Native,0.011633
+18 and 19 years Native,0.014835
+20 to 24 years Native,0.036451
+25 to 29 years Native,0.017968
+30 to 34 years Native,0.079892
+35 to 44 years Native,0.033544
+45 to 54 years Native,0.049984
+55 to 64 years Native,0.057003
+65 to 74 years Native,0.02129
+75 to 84 years Native,0.034348
+85 years and over Native,0.016046
+Under 1 years Asian,0.060434
+1 to 9 years Asian,0.094212
+10 to 14 years Asian,0.020943
+15 to 17 years Asian,0.11431
+18 and 19 years Asian,0.009465
+20 to 24 years Asian,0.021282
+25 to 29 years Asian,0.260202
+30 to 34 years Asian,0.112736
+35 to 44 years Asian,0.022914
+45 to 54 years Asian,0.046671
+55 to 64 years Asian,0.067447
+65 to 74 years Asian,0.027008
+75 to 84 years Asian,0.042492
+85 years and over Asian,0.006201
+Under 1 years Hispanic,0.037563
+1 to 9 years Hispanic,0.032277
+10 to 14 years Hispanic,0.032574
+15 to 17 years Hispanic,0.076659
+18 and 19 years Hispanic,0.034987
+20 to 24 years Hispanic,0.035985
+25 to 29 years Hispanic,0.031154
+30 to 34 years Hispanic,0.023639
+35 to 44 years Hispanic,0.051659
+45 to 54 years Hispanic,0.067661
+55 to 64 years Hispanic,0.035058
+65 to 74 years Hispanic,0.041684
+75 to 84 years Hispanic,0.036616
+85 years and over Hispanic,0.017712
+Under 1 years With a disability,0.013038
+Under 5 years  With a disability,0.016361
+5 to 17 years  With a disability,0.187818
+18 to 34 years With a disability,0.051063
+35 to 64 years With a disability,0.057077
+65 to 74 years With a disability,0.074648
+75 years and over With a disability,0.065537
+Car truck or van Drove alone,0.06901
+Car truck or van Carpooled,0.214486
+Car truck or van Carpooled In 2 person carpool,0.06634
+Car truck or van Carpooled In 3 person carpool,0.162572
+Car truck or van Carpooled In 4 person carpool,0.16627
+Car truck or van Carpooled In 5  or 6 person carpool,0.320505
+Car truck or van Carpooled In 7 or more person carpool,0.037848
+Motorcycle,0.038161
+Bicycle,0.068544
+Walked,0.073675
+Other means,0.067353
+Worked at home,0.063162
+Public Transportation,0.035425
+Works in agriculture,0.237907
+Works in construction,0.084273
+Works in manufacturing,0.131366
+Works in wholesale trade,0.162209
+Works in retail trade,0.071715
+Works in transportation,0.204004
+Works in information,0.161872
+Works in finance,0.094991
+"Works in professional, scientific, management, o administrative",0.122964
+"Works in education, health care, or social assistance",0.151683
+"Works in arts, entertainment, and recreation, and accommodation and food services",0.221603
+Works in other services,0.163106
+Works in public administration,0.055672
+Works in service occupations,0.091902
+Works in sales and office occupations,0.155547
+Family households Married couple family,0.070338
+Family households Other family Male householder no wife present,0.109836
+Family households Other family Female householder no husband present,0.047554
+Nonfamily households Householder living alone,0.094274
+Nonfamily households Householder not living alone,0.091747
+Density,0.110837
+Median AQI in 2019,0.025393
+Stay at home order,0.071921
+Mandatory Quarantine for Travelers,0.02958
+Nonessential Business Closures,0.078589
+Large Gatherings Ban,0.008066
+State Mandated School Closures,0.006079
+Bar/Restaurant Limits,0.127441
+Primary Election Postponement,0.132064
+Under 1 years White,0.069942
+1 to 9 years White,0.108994
+10 to 14 years White,0.23873
+15 to 17 years White,0.08903
+18 and 19 years White,0.101716
+20 to 24 years White,0.064812
+25 to 29 years White,0.081943
+30 to 34 years White,0.062217
+35 to 44 years White,0.142926
+45 to 54 years White,0.089102
+55 to 64 years White,0.071898
+65 to 74 years White,0.068586
+75 to 84 years White,0.087669
+85 years and over White,0.181481
+Under 1 years Black,0.049877
+1 to 9 years Black,0.262292
+10 to 14 years Black,0.121641
+15 to 17 years Black,0.053882
+18 and 19 years Black,0.066034
+20 to 24 years Black,0.088311
+25 to 29 years Black,0.057903
+30 to 34 years Black,0.175649
+35 to 44 years Black,0.152907
+45 to 54 years Black,0.229666
+55 to 64 years Black,0.264983
+65 to 74 years Black,0.208973
+75 to 84 years Black,0.213104
+85 years and over Black,0.054156
+Under 1 years Native,0.021246
+1 to 9 years Native,0.02447
+10 to 14 years Native,0.017628
+15 to 17 years Native,0.017424
+18 and 19 years Native,0.019647
+20 to 24 years Native,0.26608
+25 to 29 years Native,0.016646
+30 to 34 years Native,0.062819
+35 to 44 years Native,0.027905
+45 to 54 years Native,0.044332
+55 to 64 years Native,0.061061
+65 to 74 years Native,0.028287
+75 to 84 years Native,0.038242
+85 years and over Native,0.020619
+Under 1 years Asian,0.253539
+1 to 9 years Asian,0.345186
+10 to 14 years Asian,0.045633
+15 to 17 years Asian,0.492571
+18 and 19 years Asian,0.102512
+20 to 24 years Asian,0.165433
+25 to 29 years Asian,0.249468
+30 to 34 years Asian,0.330552
+35 to 44 years Asian,0.181336
+45 to 54 years Asian,0.062703
+55 to 64 years Asian,0.16114
+65 to 74 years Asian,0.068041
+75 to 84 years Asian,0.06107
+85 years and over Asian,0.004376
+Under 1 years Hispanic,0.081466
+1 to 9 years Hispanic,0.121451
+10 to 14 years Hispanic,0.041958
+15 to 17 years Hispanic,0.05214
+18 and 19 years Hispanic,0.059438
+20 to 24 years Hispanic,0.037885
+25 to 29 years Hispanic,0.045231
+30 to 34 years Hispanic,0.038977
+35 to 44 years Hispanic,0.038701
+45 to 54 years Hispanic,0.074045
+55 to 64 years Hispanic,0.036012
+65 to 74 years Hispanic,0.034482
+75 to 84 years Hispanic,0.179559
+85 years and over Hispanic,0.011595
+Under 1 years With a disability,0.018402
+Under 5 years  With a disability,0.016107
+5 to 17 years  With a disability,0.142372
+18 to 34 years With a disability,0.079788
+35 to 64 years With a disability,0.100296
+65 to 74 years With a disability,0.110916
+75 years and over With a disability,0.057591
+Car truck or van Drove alone,0.084041
+Car truck or van Carpooled,0.224568
+Car truck or van Carpooled In 2 person carpool,0.049424
+Car truck or van Carpooled In 3 person carpool,0.296536
+Car truck or van Carpooled In 4 person carpool,0.389262
+Car truck or van Carpooled In 5  or 6 person carpool,0.825887
+Car truck or van Carpooled In 7 or more person carpool,0.064023
+Motorcycle,0.035362
+Bicycle,0.069071
+Walked,0.068313
+Other means,0.108341
+Worked at home,0.064554
+Public Transportation,0.065399
+Works in agriculture,0.19287
+Works in construction,0.088855
+Works in manufacturing,0.629337
+Works in wholesale trade,0.142589
+Works in retail trade,0.08394
+Works in transportation,0.210342
+Works in information,0.181478
+Works in finance,0.084306
+"Works in professional, scientific, management, o administrative",0.110703
+"Works in education, health care, or social assistance",0.138093
+"Works in arts, entertainment, and recreation, and accommodation and food services",0.335681
+Works in other services,0.143234
+Works in public administration,0.126722
+Works in service occupations,0.074078
+Works in sales and office occupations,0.107762
+Family households Married couple family,0.067848
+Family households Other family Male householder no wife present,0.134717
+Family households Other family Female householder no husband present,0.083521
+Nonfamily households Householder living alone,0.097562
+Nonfamily households Householder not living alone,0.105607
