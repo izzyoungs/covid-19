@@ -135,7 +135,7 @@ The hot spot analysis geoprocessing tool creates a map of statistically signific
 
 To determine which counties might have a statistically significant difference in their case numbers, I ran an outlier analysis. This geoprocessing tool identifies statistically significant hot spots, cold spots, and spatial outliers using the Anselin Local Moran's I statistic. This shows not only the hot and cold spots, but which counties within those hot and cold spots are outliers.
 
-![*Outlier analysis of coronavirus cases*](Photos/outlier.PNG)
+![*Outlier analysis of coronavirus cases*](https://github.com/izzyoungs/covid-19/master/Photos/outlier.PNG)
 
 ### Random Forest Regression
 
