@@ -3,8 +3,8 @@ title: "COVID-19 Spatial Analysis"
 author: "Izzy Youngs"
 date: "5/7/2020"
 output: 
-  html_document:
-    keep_md: true
+  md_document:
+   variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
